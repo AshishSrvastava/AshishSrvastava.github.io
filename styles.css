@@ -64,9 +64,13 @@ body {
     margin-left: -100px;
 }
 
-.link
-{
-   color:white;
-   text-decoration: none; 
-   background-color: none;
+a:hover, a:visited {
+    color:#4a0a6a;
+    text-decoration: none;
+    background-color: none;
+}
+a:link, a:active {
+    color:white; 
+    text-decoration: none;
+    background-color: none;
 }
