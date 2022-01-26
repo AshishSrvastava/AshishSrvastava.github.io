@@ -63,3 +63,10 @@ body {
 .card:not(:first-child){
     margin-left: -100px;
 }
+
+.link
+{
+   color:white;
+   text-decoration: none; 
+   background-color: none;
+}
