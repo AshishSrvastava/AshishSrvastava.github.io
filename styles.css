@@ -69,12 +69,12 @@ body {
 }
 
 a:hover, a:visited {
-    color:hsl(260, 24%, 34%);
+    color:hsl(260, 24%, 53%); 
     text-decoration: none;
     background-color: none;
 }
 a:link, a:active {
-    color:hsl(260, 24%, 53%); 
+    color:white;
     text-decoration: none;
     background-color: none;
 }
