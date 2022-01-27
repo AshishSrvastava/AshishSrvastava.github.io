@@ -8,6 +8,10 @@ body {
     font-family: 'DM Mono', monospace;
 }
 
+.navbar-brand{
+    margin-left: 2%;
+}
+
 .card-list {
     display: flex;
     padding: 3rem;
@@ -65,12 +69,17 @@ body {
 }
 
 a:hover, a:visited {
-    color:#4a0a6a;
+    color:hsl(260, 24%, 34%);
     text-decoration: none;
     background-color: none;
 }
 a:link, a:active {
-    color:white; 
+    color:hsl(260, 24%, 53%); 
     text-decoration: none;
     background-color: none;
+}
+span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 2;
 }
