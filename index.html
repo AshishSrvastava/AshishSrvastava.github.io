@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Import LaTex -->
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +21,7 @@
 
 
 
-<body>
+<body class="content"> 
 
     <nav class="navbar sticky-top navbar-expand navbar-light" style="padding: 1%">
         <a class="navbar-brand" href="#intro" style="padding-right: 2%;">
@@ -55,11 +60,12 @@
         </article class="card-header">
 
         <!-- Resume -->
-        <article class="card">
+        <article class="card"> 
             <span class="emoji">📄</span>
             <a href="static/media/20220126Srivastava_Ashish_Resume.pdf">
                 <div class="link">
                     <h2>Resume</h2>
+                    (click on Resume!)
                 </div>
             </a>
         </article class="card-header">
@@ -71,40 +77,70 @@
         </article class="card-header">
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="Projects">
-        <h1>Some Projects I've Worked On</h1>
-        <hr>
-        <h3>APPM 2360 – Differential Equations and Linear Algebra:</h3>
-        <ul>
-            <li> Used differential equations and MATLAB to model mortgages and analyze different mortgage options </li>
-            <li>Used MATLAB alongside simple matrix manipulations and the discrete sine transform (DST) to develop a program that could:
-                <ul>
-                    <li>Crop Images</li>
-                    <li>Rotate Images</li>
-                    <li>Colour Shift Images</li>
-                </ul>
-            </li>
-        </ul>
-    
-        <h3>RMFM (Rocky Mountain Fluid Mechanics) 2021</h3>
-        <ul>
-            <li>Presented research done with the Davis Group at CU Boulder at the Rocky Mountain Fluid Mechanics conference in the Summer of 2021</li>
-        </ul>
+    <section class="main-content">
+        <!-- About Me -->
+        <section id="about" class="about-me">
+            <h1>More About Me</h1>
+            <hr>
+            <h3>Career Goals</h3>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h3>Research Interests</h3>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h3>Teaching</h3>
+            <ul>
+                <li></li>
+            </ul>
 
 
+        </section>
 
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact" class="Contact">
-        <h1>Contact Me</h1>
-        <hr>
-        <h3>I can be found at: assr4422(at)colorado(dot)edu</h3>
+        <!-- Projects -->
+        <section id="projects" class="Projects">
+            <h1>Some Projects I've Worked On</h1>
+            <hr>
+            <h3>APPM 2360 – Differential Equations and Linear Algebra:</h3>
+            <ul>
+                <li> Used differential equations and MATLAB to model mortgages and analyze different mortgage options </li>
+                <li>Used MATLAB alongside simple matrix manipulations and the discrete sine transform (DST) to develop a program that could:
+                    <ul>
+                        <li>Crop Images</li>
+                        <li>Rotate Images</li>
+                        <li>Colour Shift Images</li>
+                    </ul>
+                </li>
+            </ul>
         
+            <h3>RMFM (Rocky Mountain Fluid Mechanics) 2021</h3>
+            <ul>
+                <li>Presented research done with the Davis Group at CU Boulder at the Rocky Mountain Fluid Mechanics conference in the Summer of 2021</li>
+            </ul>
+
+            <h3>Statistical Analysis of Online Dating Data</h3>
+            <ul>
+                <li>Collected and analyzed data using comparison of means statistical methods to compare success rates over various platforms</li>
+                <li>Wrote a comprehensive report in $\LaTeX$ </li>
+            </ul>
+
+
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="Contact">
+            <h1>Contact Me</h1>
+            <hr>
+            <h3>I can be found at: assr4422(at)colorado(dot)edu</h3>
+            
+        </section>
 
     </section>
-
+    
 </body>
 </html>

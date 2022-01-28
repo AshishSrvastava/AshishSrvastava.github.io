@@ -2,11 +2,12 @@
 
 body {
     padding: 0;
-    margin: 0;
-    background-color: #19141d;
+    margin: 1.5rem;
+    background-color: #1a141d;
     color: white;
     font-family: 'DM Mono', monospace;
 }
+
 
 .navbar-brand{
     margin-left: 2%;
@@ -15,6 +16,8 @@ body {
 .card-list {
     display: flex;
     padding: 3rem;
+    /* Make sure the card stack goes to the edge of the screen */
+    margin: -1.5rem;
     overflow-x: scroll;
 }
 
@@ -82,4 +85,8 @@ span.emoji {
     font-size: 30px;
     vertical-align: middle;
     line-height: 2;
+}
+
+.main-content{
+    padding-top: 25px;
 }
